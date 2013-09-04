@@ -1,0 +1,90 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  color: $darkgrey;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+h2 {
+  font-size: 1.4em;
+}
+h3 {
+  font-size: 1.3em;
+}
+h4 {
+  font-size: 1.2em;
+}
+h5 { 
+  font-size: 1.1em;
+}
+h6 {
+  font-size: 1.05em;
+}
+
+.main-navigation h3 {
+  font-size: 1em;
+  font-weight: 700;
+  letter-spacing: $letter-spacing;
+}
+
+.page-title {
+  color: white;
+  font-size: 1.8em;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+}
+
+.child-page-title {
+  background-color: $darkgrey;
+  color: white;
+  font-size: 1.6em;
+  font-weight: 700;
+  border-bottom: $content-border solid white;
+  padding: 0 0 0 1rem;
+}
+
+// h1.announcement-title, h1.event-title {
+.announcement-title, .event-title {
+  color: $darkgrey;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 0 0 0.5em 0;
+}
+
+p {
+  padding: 0 0 0.5em 0;
+}
+
+.page-wrap, .site-footer {
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page-wrap a {
+  color: black;
+  font-weight: 700;
+  &:hover, &:focus {
+    color: $darkgrey;
+    background-color: white;
+  }
+  // &:active{}?
+}
+
+.logo {
+  font-size: 1.3em;
+  font-weight: 700;
+  letter-spacing: $letter-spacing;
+}

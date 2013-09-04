@@ -1,0 +1,28 @@
+.page-content {
+  background-image: url(../img/cardboard_flat.png);
+  // background-image: url(../img/lightpaperfibers.png);
+  padding: 1em 1em 1em 1em;
+
+  h1 {
+    border-left: $content-border*2 solid $darkgrey;
+    padding-left: $content-border;
+  }
+}
+
+body {
+  background-image: url(../img/dark_wood.png);
+}
+
+.page-wrap, .site-footer {
+  padding: 0.75em;
+}
+
+.main-column {
+  margin: auto;
+  max-width: 70em;
+}
+
+.content-module {
+  border: $content-border solid white;
+  margin: 2em 0;
+}

@@ -1,0 +1,19 @@
+$content-border: 5px;
+
+$letter-spacing: 2px;
+
+$darkgrey: rgb(32,32,32);
+
+$lightgrey: rgb(190,190,190);
+
+@mixin breakpoint($point) {
+  @if $point == biggest {
+    @media (min-width: 1700px) { @content; }
+  }
+  @if $point == bigger {
+    @media (min-width: 1000px) { @content; }
+  }
+  @if $point ==  big {
+    @media (min-width: 700px) { @content; }
+  }
+}

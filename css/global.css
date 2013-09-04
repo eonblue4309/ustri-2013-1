@@ -1,0 +1,249 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+/* line 1, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_resets.scss */
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 1, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_toolbox.scss */
+.screen-reader-text {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+/* line 7, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_toolbox.scss */
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*floats and stuff here?*/
+/* line 3, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #202020;
+}
+
+/* line 10, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+/* line 15, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
+h1 {
+  font-size: 1.5em;
+}
+
+/* line 18, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
+h2 {
+  font-size: 1.4em;
+}
+
+/* line 21, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
+h3 {
+  font-size: 1.3em;
+}
+
+/* line 24, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
+h4 {
+  font-size: 1.2em;
+}
+
+/* line 27, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
+h5 {
+  font-size: 1.1em;
+}
+
+/* line 30, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
+h6 {
+  font-size: 1.05em;
+}
+
+/* line 34, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
+.main-navigation h3 {
+  font-size: 1em;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+/* line 40, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
+.page-title {
+  color: white;
+  font-size: 1.8em;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+}
+
+/* line 47, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
+.child-page-title {
+  background-color: #202020;
+  color: white;
+  font-size: 1.6em;
+  font-weight: 700;
+  border-bottom: 5px solid white;
+  padding: 0 0 0 1rem;
+}
+
+/* line 57, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
+.announcement-title, .event-title {
+  color: #202020;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 0 0 0.5em 0;
+}
+
+/* line 64, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
+p {
+  padding: 0 0 0.5em 0;
+}
+
+/* line 68, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
+.page-wrap, .site-footer {
+  line-height: 1.8;
+}
+
+/* line 72, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 76, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
+.page-wrap a {
+  color: black;
+  font-weight: 700;
+}
+/* line 79, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
+.page-wrap a:hover, .page-wrap a:focus {
+  color: #202020;
+  background-color: white;
+}
+
+/* line 86, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
+.logo {
+  font-size: 1.3em;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+/* line 1, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_header.scss */
+.logo {
+  display: block;
+  color: white;
+  padding: 0.3em 0 0.3em 0.3em;
+  border-bottom: 5px solid white;
+}
+@media (min-width: 700px) {
+  /* line 1, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_header.scss */
+  .logo {
+    font-size: 2em;
+  }
+}
+@media (min-width: 1000px) {
+  /* line 1, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_header.scss */
+  .logo {
+    font-size: 2.5em;
+  }
+}
+
+/* line 16, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_header.scss */
+.logo-group {
+  padding: 0 0 0 3.3em;
+  background: url(../img/kikyo-true-white.png) no-repeat;
+  background-size: contain;
+}
+
+/* line 22, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_header.scss */
+.site-header {
+  background-color: #202020;
+}
+
+/* line 1, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_navigation.scss */
+.main-navigation {
+  padding: 0.3em 0 0 0;
+  text-align: center;
+  background-color: #202020;
+}
+/* line 7, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_navigation.scss */
+.main-navigation a {
+  font-size: 0.9em;
+  display: inline-block;
+  text-decoration: none;
+  padding: 1em;
+  color: white;
+}
+/* line 13, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_navigation.scss */
+.main-navigation a:hover {
+  color: #202020;
+  background-color: white;
+}
+@media (min-width: 700px) {
+  /* line 7, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_navigation.scss */
+  .main-navigation a {
+    font-size: 1.1em;
+  }
+}
+@media (min-width: 1000px) {
+  /* line 7, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_navigation.scss */
+  .main-navigation a {
+    font-size: 1.4em;
+  }
+}
+
+/* line 32, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_navigation.scss */
+.navigation li {
+  display: inline-block;
+}
+
+/* line 40, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_navigation.scss */
+.inner-page-navigation a {
+  font-size: 1.3em;
+  padding: 0.5em;
+}
+
+/* line 1, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_page.scss */
+.page-content {
+  background-image: url(../img/cardboard_flat.png);
+  padding: 1em 1em 1em 1em;
+}
+/* line 6, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_page.scss */
+.page-content h1 {
+  border-left: 10px solid #202020;
+  padding-left: 5px;
+}
+
+/* line 12, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_page.scss */
+body {
+  background-image: url(../img/dark_wood.png);
+}
+
+/* line 16, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_page.scss */
+.page-wrap, .site-footer {
+  padding: 0.75em;
+}
+
+/* line 20, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_page.scss */
+.main-column {
+  margin: auto;
+  max-width: 70em;
+}
+
+/* line 25, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_page.scss */
+.content-module {
+  border: 5px solid white;
+  margin: 2em 0;
+}
+
+/* line 2, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_events.scss */
+.event dt {
+  font-weight: 800;
+  float: left;
+  padding: 0 0.5em 0 0;
+}
