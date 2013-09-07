@@ -4,15 +4,27 @@
 	text-align: center;
 	background-color: rgba($darkgrey, 1);
 
+  li {
+    display: inline-block;
+  }
+
   a {
-    font-size: 0.9em;
+
+    width: 100%;
+
+    font-size: 0.75em;
     display: inline-block;
     text-decoration: none;
     padding: 1em;
     color: white;
+
     &:hover {
       color: rgba($darkgrey, 1);
       background-color: white;
+    }
+
+    @include breakpoint(smaller) {
+      font-size: 1em;
     }
 
     @include breakpoint(big) {
@@ -20,25 +32,26 @@
     }
 
     @include breakpoint(bigger) {
-      font-size: 1.4em;
+      font-size: 1.3em;
     }
   
   }
 
 }
 
-.navigation {
-
-  li {
-    display: inline-block;
-  }
-
-}
-
 .inner-page-navigation {
 
+  li {
+    list-style-type: none;
+
+    @include breakpoint(smaller) {
+      display: inline-block;
+      font-size: 1.1em;
+    }
+  }
+
   a {
-    font-size: 1.3em;
+    font-size: 1em;
     padding: 0.5em; 
   }
 

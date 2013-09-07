@@ -37,23 +37,35 @@
 <body>
 
   <header class="site-header">
-    
-    <a href="/" class="logo">
-      
-      <div class="logo-group">
+
+    <div class="masthead">
+
+      <div class="main-column">
+
+        <!-- <img src="/" /> -->
+
+        <a href="/" class="logo">
+          
+          <div class="logo-group">
+            
+            <div class="logo-first-line">
+              United States
+            </div>
+
+            <div class="logo-second-line">
+              Tamiya Ryu Iaijutsu
+            </div>
+          
+          </div>
         
-        <div class="logo-first-line">
-          United States
-        
-        </div>
-        <div class="logo-second-line">
-          Tamiya Ryu Iaijutsu
-        </div>
-      
+        </a>
+
       </div>
-    
-    </a>
- 
+
+    </div>
+
+    <?php include("parts/navigation.php"); ?>
+
   </header>
 
-  <?php include("parts/navigation.php"); ?>
+  

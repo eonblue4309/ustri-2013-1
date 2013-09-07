@@ -13,7 +13,10 @@ $lightgrey: rgb(190,190,190);
   @if $point == bigger {
     @media (min-width: 1000px) { @content; }
   }
-  @if $point ==  big {
+  @if $point == big {
     @media (min-width: 700px) { @content; }
+  }
+  @if $point == smaller {
+    @media (min-width: 420px) { @content; }
   }
 }
