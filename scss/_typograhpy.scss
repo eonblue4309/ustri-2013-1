@@ -53,12 +53,15 @@ h6 {
   padding: 0 0 0 1rem;
 }
 
-// h1.announcement-title, h1.event-title {
-.announcement-title, .event-title {
-  color: $darkgrey;
-  font-size: 1.5em;
-  font-weight: 700;
-  margin: 0 0 0.5em 0;
+.page-content {
+
+  h1 {
+    color: $darkgrey;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 0 0 0.5em 0;
+  }
+
 }
 
 p {
@@ -73,14 +76,22 @@ a {
   text-decoration: none;
 }
 
-.page-wrap a {
-  color: black;
-  font-weight: 700;
-  &:hover, &:focus {
-    color: $darkgrey;
-    background-color: white;
+.page-wrap {
+
+  ul, ol {
+    margin: 0 0 0 1.5em;
   }
-  // &:active{}?
+
+  a {
+    color: black;
+    font-weight: 700;
+
+    &:hover, &:focus {
+      color: $darkgrey;
+      background-color: white;
+    }
+    //&:hover{}?
+  }
 }
 
 .logo {

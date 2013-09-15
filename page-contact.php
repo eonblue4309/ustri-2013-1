@@ -32,6 +32,25 @@
       })(document, 'script');
     </script>
 
+    <?php /*
+
+      Name
+      Email
+      Select
+        Inquiry
+        Absence
+        Event Registration
+
+      if (inquiry)
+        Select
+          General
+          Michigan Hombu Dojo
+          Southeast Michigan Branch Dojo
+      if (event)
+        Select
+          Event 1
+
+    */?>
 
   </div>
 

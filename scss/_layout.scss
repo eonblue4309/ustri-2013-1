@@ -1,1 +1,8 @@
 /*floats and stuff here?*/
+
+@include breakpoint(big) {
+  .member-listing {
+    float: left;
+    width: 50%;
+  }
+}

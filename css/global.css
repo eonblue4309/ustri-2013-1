@@ -23,6 +23,13 @@
 }
 
 /*floats and stuff here?*/
+@media (min-width: 700px) {
+  /* line 4, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_layout.scss */
+  .member-listing {
+    float: left;
+    width: 50%;
+  }
+}
 /* line 3, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
 body {
   font-family: 'Open Sans', sans-serif;
@@ -92,41 +99,45 @@ h6 {
   padding: 0 0 0 1rem;
 }
 
-/* line 57, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
-.announcement-title, .event-title {
+/* line 58, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
+.page-content h1 {
   color: #202020;
   font-size: 1.5em;
   font-weight: 700;
   margin: 0 0 0.5em 0;
 }
 
-/* line 64, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
+/* line 67, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
 p {
   padding: 0 0 0.5em 0;
 }
 
-/* line 68, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
+/* line 71, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
 .page-wrap, .site-footer {
   line-height: 1.8;
 }
 
-/* line 72, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
+/* line 75, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
 a {
   text-decoration: none;
 }
 
-/* line 76, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
+/* line 81, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
+.page-wrap ul, .page-wrap ol {
+  margin: 0 0 0 1.5em;
+}
+/* line 85, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
 .page-wrap a {
   color: black;
   font-weight: 700;
 }
-/* line 79, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
+/* line 89, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
 .page-wrap a:hover, .page-wrap a:focus {
   color: #202020;
   background-color: white;
 }
 
-/* line 86, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
+/* line 97, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_typograhpy.scss */
 .logo {
   font-size: 1.3em;
   font-weight: 700;
@@ -266,6 +277,24 @@ body {
 .content-module {
   border: 5px solid white;
   margin: 2em 0;
+}
+
+/* line 1, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_dojo.scss */
+td {
+  padding: 0 1em 0 0;
+}
+/* line 4, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_dojo.scss */
+td:first-child {
+  text-align: right;
+}
+
+/* line 3, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_members.scss */
+.instructors ul {
+  margin: 0;
+}
+/* line 7, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_members.scss */
+.instructors li {
+  list-style-type: none;
 }
 
 /* line 2, C:/Users/James/Documents/WebsiteProjects/USTRI/wp-content/themes/ustri-2013-1/scss/_events.scss */

@@ -6,7 +6,7 @@
 
 <?php if (get_the_content()) : ?>
 
-<section id="<?php echo $post->post_name; ?>" class="page-child content-module">
+<section id="<?php echo $post->post_name; ?>" class="<?php echo $post->post_name; ?> page-child content-module">
 
   <h1 class="child-page-title"><?php the_title(); ?></h1>
   
